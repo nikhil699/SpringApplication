@@ -16,6 +16,8 @@ public class DepartmentServiceImpl implements DepartmentService {
     public List<Department> getAllDepartments() {
 
         List<Department> result = departmentRepository.findAll();
+
+        Baaaaaaaaaaaaaaaaaaa
         return result;
     }
 

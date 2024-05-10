@@ -15,9 +15,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public List<Department> getAllDepartments() {
 
-        List<Department> result = departmentRepository.findAll();
-
-        Baaaaaaaaaaaaaaaaaaa
+        List<Department> result = departmentRepository.findAll();Baaaaaaaaaaaaaaaaaaa
         return result;
     }
 

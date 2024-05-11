@@ -14,11 +14,14 @@ public class TaskServiceImpl implements TaskService {
 
     @Override
     public List<Task> getAllTasks() {
-        return taskRepository.findAll();LLLLLlllllllllllll
+        System.out.println("fMAP-888");
+        return taskRepository.findAll();
+
     }
 
     @Override
     public Task saveTask(Task task) {
+        System.out.println("fMAP-888");
         return taskRepository.save(task);
     }
     // Implement other methods

@@ -15,11 +15,13 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public List<Employee> getAllEmployees() {
-        return employeeRepository.findAll();MMMMmmmmmmmmmmmmmmm
+        System.out.println("fMAP-888");
+        return employeeRepository.findAll();
     }
 
     @Override
     public Employee saveEmployee(Employee employee) {
+        System.out.println("fMAP-888");
         return employeeRepository.save(employee);
     }
     // Implement other methods

@@ -14,6 +14,7 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public List<Project> getAllProjects() {
+
         System.out.println("fMAP-999");
         return projectRepository.findAll();
 
@@ -21,6 +22,7 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public Project saveProject(Project project) {
+
         System.out.println("fMAP-999");
         return projectRepository.save(project);
     }

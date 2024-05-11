@@ -15,10 +15,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Override
     public List<Employee> getAllEmployees() {
+
         System.out.println("fMAP-888");
-        return employeeRepository.findAll();
-        return employeeRepository.findAll();MMMMmmmmmmmmmmmmmmm
-    public List<Employee> getAllEmployees() {7777778889hiuygyugyuvyu
         return employeeRepository.findAll();
     }
 

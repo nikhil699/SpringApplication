@@ -30,6 +30,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public List<Task> getAllTasks() {
         taskRepository.findAll();
+
         System.out.println("fMAP-888");
         return taskRepository.findAll();
     }
@@ -37,6 +38,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public Task saveTask(Task task) {
         taskRepository.findAll();
+
         System.out.println("MAP-888");
         return taskRepository.save(task);
     }

@@ -14,12 +14,14 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public List<Project> getAllProjects() {
+
         System.out.println("fMAP-888");
         return projectRepository.findAll();
     }
 
     @Override
     public Project saveProject(Project project) {
+
         System.out.println("fMAP-888");
         return projectRepository.save(project);
     }
